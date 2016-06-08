@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game1_02_img_01",
+    "texture": "4764a540-679f-4901-9089-27cc3be03f63",
+    "rect": [
+      0,
+      0,
+      88,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      38
+    ],
+    "rotated": 0
+  }
+}

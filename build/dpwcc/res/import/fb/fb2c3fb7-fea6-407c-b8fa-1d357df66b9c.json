@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loding2_03",
+    "texture": "20322388-93c2-4607-a4bc-3d306b7422a0",
+    "rect": [
+      0,
+      0,
+      502,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      502,
+      42
+    ],
+    "rotated": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game1_01_img_04",
+    "texture": "ee409142-94c9-4268-9412-8c512a36db6e",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      477,
+      89
+    ],
+    "offset": [
+      2,
+      2.5
+    ],
+    "originalSize": [
+      483,
+      102
+    ],
+    "rotated": 0
+  }
+}

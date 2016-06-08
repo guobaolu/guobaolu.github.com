@@ -1,0 +1,13 @@
+{
+  "excludeScenes": [],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.Game_K",
+  "startScene": "245ec99f-bf08-4403-8768-78061d46bc71",
+  "title": "GameK",
+  "webOrientation": "auto"
+}

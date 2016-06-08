@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "尾巴",
+    "texture": "09051197-11d2-492c-89de-d072c6daa45c",
+    "atlas": "",
+    "rect": [
+      1,
+      10,
+      90,
+      205
+    ],
+    "offset": [
+      0.5,
+      -5
+    ],
+    "originalSize": [
+      91,
+      215
+    ],
+    "rotated": 0
+  }
+}

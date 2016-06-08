@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "3e164f10-1128-4dbd-850b-720727a03893",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "game1_01_water": {
+      "ver": "1.0.2",
+      "uuid": "77066b6f-33b8-4f24-9040-b9ebf8e276e9",
+      "rawTextureUuid": "3e164f10-1128-4dbd-850b-720727a03893",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 2,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 750,
+      "height": 340,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

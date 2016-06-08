@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game1_01_gold_03",
+    "texture": "52c12b38-a29d-47ea-bf34-3556035131c9",
+    "rect": [
+      0,
+      0,
+      69,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      41
+    ],
+    "rotated": 0
+  }
+}

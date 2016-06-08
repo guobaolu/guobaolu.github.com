@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game1_01_btn_06",
+    "texture": "beddc230-f715-4c2f-a56f-928cd18cad5f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      127,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      127,
+      132
+    ],
+    "rotated": 0
+  }
+}

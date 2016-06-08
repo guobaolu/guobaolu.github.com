@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game1_01_gold_01",
+    "texture": "5f124031-b748-4ee0-accd-b02e502a866d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      71,
+      52
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      71,
+      53
+    ],
+    "rotated": 0
+  }
+}

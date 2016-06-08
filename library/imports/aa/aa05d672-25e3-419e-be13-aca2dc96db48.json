@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "load_wei",
+    "texture": "b6ae0bac-9d10-4759-8109-cf431d73780b",
+    "atlas": "",
+    "rect": [
+      0,
+      11,
+      15,
+      42
+    ],
+    "offset": [
+      -5,
+      -0.5
+    ],
+    "originalSize": [
+      25,
+      63
+    ],
+    "rotated": 0
+  }
+}

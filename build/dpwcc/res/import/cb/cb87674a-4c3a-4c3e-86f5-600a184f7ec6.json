@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game1_01_btn_09",
+    "texture": "37b164be-fdde-4e53-bc29-c5f1e65bb8d7",
+    "rect": [
+      0,
+      0,
+      127,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      127,
+      132
+    ],
+    "rotated": 0
+  }
+}

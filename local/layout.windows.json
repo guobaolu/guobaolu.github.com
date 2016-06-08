@@ -1,0 +1,87 @@
+{
+  "windows": {
+    "main": {
+      "x": -8,
+      "y": -8,
+      "width": 1382,
+      "height": 754,
+      "layout": {
+        "docks": [
+          {
+            "docks": [
+              {
+                "docks": [
+                  {
+                    "active": 0,
+                    "height": 313,
+                    "panels": [
+                      "hierarchy.panel"
+                    ],
+                    "type": "panel",
+                    "width": 216
+                  },
+                  {
+                    "active": 0,
+                    "height": 311,
+                    "panels": [
+                      "assets.panel"
+                    ],
+                    "type": "panel",
+                    "width": 216
+                  }
+                ],
+                "height": 627,
+                "row": false,
+                "type": "dock",
+                "width": 216
+              },
+              {
+                "docks": [
+                  {
+                    "active": 0,
+                    "height": 424,
+                    "panels": [
+                      "scene.panel"
+                    ],
+                    "type": "panel",
+                    "width": 805
+                  },
+                  {
+                    "active": 0,
+                    "height": 200,
+                    "panels": [
+                      "console.panel",
+                      "timeline.panel"
+                    ],
+                    "type": "panel",
+                    "width": 805
+                  }
+                ],
+                "height": 627,
+                "row": false,
+                "type": "dock",
+                "width": 805
+              },
+              {
+                "active": 0,
+                "height": 627,
+                "panels": [
+                  "inspector.panel"
+                ],
+                "type": "panel",
+                "width": 333
+              }
+            ],
+            "height": 627,
+            "row": true,
+            "type": "dock",
+            "width": 1360
+          }
+        ],
+        "no-collapse": true,
+        "row": false,
+        "type": "dock"
+      }
+    }
+  }
+}

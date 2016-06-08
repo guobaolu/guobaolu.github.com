@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jindubg",
+    "texture": "ff6435aa-1f85-4669-879a-fdaa07c341c4",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      522,
+      62
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      522,
+      63
+    ],
+    "rotated": 0
+  }
+}
