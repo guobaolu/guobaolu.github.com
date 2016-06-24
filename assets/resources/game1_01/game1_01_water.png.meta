@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "game1_01_water": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "77066b6f-33b8-4f24-9040-b9ebf8e276e9",
       "rawTextureUuid": "3e164f10-1128-4dbd-850b-720727a03893",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 0,
       "width": 750,
       "height": 340,
+      "rawWidth": 750,
+      "rawHeight": 344,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

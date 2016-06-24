@@ -1,4 +1,5 @@
 {
+  "version": "1.1.1",
   "windows": {
     "main": {
       "x": -8,
@@ -10,76 +11,68 @@
           {
             "docks": [
               {
-                "docks": [
-                  {
-                    "active": 0,
-                    "height": 313,
-                    "panels": [
-                      "hierarchy.panel"
-                    ],
-                    "type": "panel",
-                    "width": 216
-                  },
-                  {
-                    "active": 0,
-                    "height": 311,
-                    "panels": [
-                      "assets.panel"
-                    ],
-                    "type": "panel",
-                    "width": 216
-                  }
+                "active": 0,
+                "height": 312,
+                "panels": [
+                  "hierarchy"
                 ],
-                "height": 627,
-                "row": false,
-                "type": "dock",
+                "type": "panel",
                 "width": 216
               },
               {
-                "docks": [
-                  {
-                    "active": 0,
-                    "height": 424,
-                    "panels": [
-                      "scene.panel"
-                    ],
-                    "type": "panel",
-                    "width": 805
-                  },
-                  {
-                    "active": 0,
-                    "height": 200,
-                    "panels": [
-                      "console.panel",
-                      "timeline.panel"
-                    ],
-                    "type": "panel",
-                    "width": 805
-                  }
-                ],
-                "height": 627,
-                "row": false,
-                "type": "dock",
-                "width": 805
-              },
-              {
                 "active": 0,
-                "height": 627,
+                "height": 312,
                 "panels": [
-                  "inspector.panel"
+                  "assets"
                 ],
                 "type": "panel",
-                "width": 333
+                "width": 216
               }
             ],
             "height": 627,
-            "row": true,
+            "row": false,
             "type": "dock",
-            "width": 1360
+            "width": 216
+          },
+          {
+            "docks": [
+              {
+                "active": 0,
+                "height": 424,
+                "panels": [
+                  "scene"
+                ],
+                "type": "panel",
+                "width": 744
+              },
+              {
+                "active": 0,
+                "height": 200,
+                "panels": [
+                  "console",
+                  "timeline"
+                ],
+                "type": "panel",
+                "width": 744
+              }
+            ],
+            "height": 627,
+            "row": false,
+            "type": "dock",
+            "width": 744
+          },
+          {
+            "active": 0,
+            "height": 627,
+            "panels": [
+              "inspector"
+            ],
+            "type": "panel",
+            "width": 394
           }
         ],
         "no-collapse": true,
-        "row": false,
+        "row": true,
         "type": "dock"
       }
     }

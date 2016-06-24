@@ -12,22 +12,22 @@ var go_time = 0; //滑动时间参数
 var began_touch = cc.v2(0, 0);
 var now_kedu = 0;
 cc.Class({
-    'extends': cc.Component,
+    "extends": cc.Component,
     properties: {
         dapan: {
-            'default': null,
+            "default": null,
             type: cc.Label
         },
         up_down: {
-            'default': null,
+            "default": null,
             type: cc.Label
         },
         dianshu: {
-            'default': null,
+            "default": null,
             type: cc.Label
         },
         now_number: {
-            'default': null,
+            "default": null,
             type: cc.Node
         }
     },
@@ -36,7 +36,6 @@ cc.Class({
     onLoad: function onLoad() {
         // var actionBy = cc.skewBy(2,-90, -180);
         // this.node.runAction(actionBy);
-
         this.max_num = window.SHindex * 0.1; //涨幅单向最大值
         this.sin = this.max_num / 180; //每刻度代表值
         var self = this;
@@ -95,7 +94,6 @@ cc.Class({
                     var touchLoc = touch.getLocation();
                     if (began_touch.x != touchLoc.x) {
                         var ro_num = (touchLoc.x - began_touch.x) / 1000;
-                        console.log('之前的x:' + began_touch.x + '之后的x:' + touchLoc.x + '比例' + ro_num);
                         var seq = undefined;
                         if (ro_num >= 1 || ro_num <= -1) {
                             if (ro_num > 0) {
@@ -115,7 +113,7 @@ cc.Class({
                 // self.now_number.active = false;
                 touch1 = false;
             }
-        }, self);
+        }, self.node);
     },
     //根据参数 让盘子转圈
     to_turnable: function to_turnable(num) {

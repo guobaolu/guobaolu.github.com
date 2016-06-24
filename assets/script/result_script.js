@@ -58,7 +58,6 @@ cc.Class({
     creat_coin: function(){
         // 使用给定的模板在场景中生成一个新节点
         var newStar = cc.instantiate(this.coinPrefab);
-        console.log("生成金币");
         // 将新增的节点添加到 Canvas 节点下面
         this.node.addChild(newStar);
         //获取两个随机数 初始点

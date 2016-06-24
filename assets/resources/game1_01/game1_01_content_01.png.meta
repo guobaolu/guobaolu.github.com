@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "game1_01_content_01": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "bd3124c2-8124-4a84-b8a4-d57d4f3ef873",
       "rawTextureUuid": "4b185f6d-bbb4-4b0e-a75e-91f6320e339c",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 1,
       "width": 290,
       "height": 130,
+      "rawWidth": 290,
+      "rawHeight": 131,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

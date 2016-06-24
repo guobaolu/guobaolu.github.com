@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;AACrB,cAAU,EAAE;AACR,gBAAQ,EAAE;AACN,uBAAS,IAAI;AACb,gBAAI,EAAE,EAAE,CAAC,IAAI;SAChB;AACD,iBAAS,EAAE;AACP,uBAAS,IAAI;AACb,gBAAI,EAAE,EAAE,CAAC,IAAI;SAChB;KACJ;;AAED,UAAM,EAAE,kBAAY;AAChB,YAAI,IAAI,GAAG,IAAI,CAAC;AAChB,iBAAS,WAAW,CAAE,KAAK,EAAE,EAE5B;AACD,iBAAS,SAAS,CAAE,KAAK,EAAE;AACvB,gBAAG,IAAI,CAAC,QAAQ,CAAC,MAAM,EAAE;AACrB,oBAAI,CAAC,QAAQ,CAAC,MAAM,GAAG,KAAK,CAAC;AAC7B,oBAAI,CAAC,SAAS,CAAC,MAAM,GAAG,IAAI,CAAC;aAChC,MAAI;AACD,oBAAI,CAAC,QAAQ,CAAC,MAAM,GAAI,IAAI,CAAC;AAC7B,oBAAI,CAAC,SAAS,CAAC,MAAM,GAAG,KAAK,CAAC;aACjC;SACJ;AACD,YAAI,CAAC,IAAI,CAAC,EAAE,CAAC,YAAY,EAAE,WAAW,EAAE,IAAI,CAAC,IAAI,CAAC,CAAC;AACnD,YAAI,CAAC,IAAI,CAAC,EAAE,CAAC,UAAU,EAAE,SAAS,EAAE,IAAI,CAAC,IAAI,CAAC,CAAC;AAC/C,YAAI,CAAC,IAAI,CAAC,EAAE,CAAC,aAAa,EAAE,SAAS,EAAE,IAAI,CAAC,IAAI,CAAC,CAAC;KACrD;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n    properties: {\n        setvoise: {\n            default: null,\n            type: cc.Node\n        },\n        setvoise1: {\n            default: null,\n            type: cc.Node\n        }\n    },\n    // use this for initialization\n    onLoad: function () {\n        var self = this;\n        function onTouchDown (event) {\n\n        }\n        function onTouchUp (event) {\n            if(self.setvoise.active ){\n                self.setvoise.active = false; \n                self.setvoise1.active = true;\n            }else{\n                self.setvoise.active  = true; \n                self.setvoise1.active = false;\n            }\n        }\n        this.node.on('touchstart', onTouchDown, this.node);\n        this.node.on('touchend', onTouchUp, this.node);\n        this.node.on('touchcancel', onTouchUp, this.node);\n    }\n});"
+  ]
+}

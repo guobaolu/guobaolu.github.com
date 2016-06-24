@@ -32,7 +32,6 @@ cc.Class({
     onLoad: function () {
         // var actionBy = cc.skewBy(2,-90, -180);
         // this.node.runAction(actionBy);
-        
         this.max_num = window.SHindex * 0.1;//涨幅单向最大值
         this.sin = this.max_num / 180;//每刻度代表值
         var self = this;
@@ -89,7 +88,6 @@ cc.Class({
                     let touchLoc = touch.getLocation();
                     if(began_touch.x != touchLoc.x){
                         let ro_num = ((touchLoc.x - began_touch.x)/1000);
-                        console.log('之前的x:'+began_touch.x + '之后的x:'+ touchLoc.x +'比例'+ ro_num);
                         let seq;
                         if(ro_num >= 1 || ro_num <= -1){
                             if(ro_num > 0){
@@ -109,7 +107,7 @@ cc.Class({
                 // self.now_number.active = false;
                 touch1 = false;
             }
-        }, self);
+        }, self.node);
     },
     //根据参数 让盘子转圈
     to_turnable: function(num){
@@ -119,7 +117,6 @@ cc.Class({
         let rote = num/this.sin;//当前角度
         var seq = cc.rotateTo (0.5,rote).easing(cc.easeCubicActionOut());
         this.node.runAction(seq); 
-        
     },
     // called every frame
     update: function (dt) {

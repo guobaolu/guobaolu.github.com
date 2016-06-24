@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;;;;;;;;;KAUX;;;AAGD,UAAM,EAAE,kBAAY;;AAEhB,YAAI,MAAM,GAAG,EAAE,CAAC,QAAQ,CAAC,IAAI,CAAC,SAAS,EAAE,IAAI,CAAC,CAAC;AAC/C,YAAI,GAAG,GAAG,EAAE,CAAC,QAAQ,CAAC,EAAE,CAAC,OAAO,CAAC,CAAC,EAAC,GAAG,EAAC,GAAG,CAAC,EAAC,EAAE,CAAC,KAAK,CAAC,EAAE,CAAC,OAAO,CAAC,CAAC,EAAC,GAAG,EAAC,GAAG,CAAC,EAAC,EAAE,CAAC,MAAM,CAAC,CAAC,EAAC,CAAC,EAAC,GAAG,CAAC,CAAC,EAAE,MAAM,CAAC,CAAC;AACxG,YAAI,CAAC,IAAI,CAAC,SAAS,CAAC,GAAG,CAAC,CAAC;KAC5B;AACD,UAAM,EAAE,kBAAU,EAEjB;AACD,aAAS,EAAE,qBAAU;AACjB,YAAI,CAAC,IAAI,CAAC,OAAO,EAAE,CAAC;KACvB;AACD,UAAM,EAAE,kBAAU,EAEjB;;;;;;;AAAA,CAKJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        //动作以及动作回调\r\n        var finish = cc.callFunc(this.callback1, this);\r\n        var seq = cc.sequence(cc.scaleTo(0,0.1,0.1),cc.spawn(cc.scaleTo(2,0.8,0.8),cc.moveBy(2,0,160)), finish);\r\n        this.node.runAction(seq);  \r\n    },\r\n    begain: function(){\r\n\r\n    },\r\n    callback1: function(){\r\n        this.node.destroy();\r\n    },\r\n    update: function(){\r\n        // this.kankan.string = end_x;\r\n    }\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

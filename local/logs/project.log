@@ -1,0 +1,45 @@
+2016-06-24T09:50:49.952Z - normal: Load ~/.CocosCreator/settings.json
+2016-06-24T09:50:49.955Z - normal: checking language setting...
+2016-06-24T09:50:49.956Z - normal: Language: zh
+2016-06-24T09:50:51.028Z - success: protocol editor-framework registerred
+2016-06-24T09:50:51.028Z - success: protocol app registerred
+2016-06-24T09:50:51.029Z - success: protocol packages registerred
+2016-06-24T09:50:51.029Z - success: protocol unpack registerred
+2016-06-24T09:50:51.263Z - normal: connected!
+2016-06-24T09:50:51.271Z - normal: Check project D:\CCCCCCC\Game_K\Game_K
+2016-06-24T09:50:51.277Z - normal: Initializing Cocos Creator Editor
+2016-06-24T09:50:51.500Z - normal: Initializing Cocos2d
+2016-06-24T09:50:51.922Z - normal: Initializing Asset Database
+2016-06-24T09:50:51.969Z - success: protocol uuid registerred
+2016-06-24T09:50:51.969Z - success: protocol uuid registerred
+2016-06-24T09:50:51.969Z - success: protocol thumbnail registerred
+2016-06-24T09:50:51.969Z - normal: Loading editor/builtin packages
+2016-06-24T09:50:52.115Z - success: assets loaded
+2016-06-24T09:50:52.117Z - success: builder loaded
+2016-06-24T09:50:52.121Z - success: hierarchy loaded
+2016-06-24T09:50:52.125Z - success: inspector loaded
+2016-06-24T09:50:52.126Z - success: keystore loaded
+2016-06-24T09:50:52.130Z - success: node-library loaded
+2016-06-24T09:50:52.133Z - success: preferences loaded
+2016-06-24T09:50:52.149Z - success: project-importer loaded
+2016-06-24T09:50:52.151Z - success: project-settings loaded
+2016-06-24T09:50:52.171Z - success: ui-kit loaded
+2016-06-24T09:50:52.179Z - success: ui-grid loaded
+2016-06-24T09:50:52.187Z - success: scene loaded
+2016-06-24T09:50:52.191Z - success: sprite-editor loaded
+2016-06-24T09:50:52.206Z - success: timeline loaded
+2016-06-24T09:50:52.210Z - success: ui-kit-extra loaded
+2016-06-24T09:50:52.211Z - normal: Loading builtin packages
+2016-06-24T09:50:52.228Z - success: asset-db-debugger loaded
+2016-06-24T09:50:52.231Z - success: code-editor loaded
+2016-06-24T09:50:52.232Z - success: color-picker loaded
+2016-06-24T09:50:52.241Z - success: console loaded
+2016-06-24T09:50:52.246Z - success: package-manager loaded
+2016-06-24T09:50:52.253Z - success: tester loaded
+2016-06-24T09:50:52.257Z - success: ui-tree loaded
+2016-06-24T09:50:52.331Z - normal: Initializing project D:\CCCCCCC\Game_K\Game_K
+2016-06-24T09:50:52.332Z - normal: Loading packages
+2016-06-24T09:50:52.336Z - normal: Run Application
+2016-06-24T09:50:53.682Z - success: preview server running at http://localhost:7456
+2016-06-24T09:50:56.574Z - normal: 1.1.1
+2016-06-24T09:51:07.388Z - normal: Compiled successfully

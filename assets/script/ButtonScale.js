@@ -8,7 +8,6 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-        console.log("几次");
         var self = this;
         self.initScale = this.node.scale;
         self.button = self.getComponent(cc.Button);

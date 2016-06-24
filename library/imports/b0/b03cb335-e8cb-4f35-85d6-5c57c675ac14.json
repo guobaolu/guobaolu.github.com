@@ -1,0 +1,13 @@
+{
+  "__type__": "cc.BitmapFont",
+  "_name": "ddd",
+  "_objFlags": 0,
+  "_rawFiles": [
+    "raw-bitmap-font.fnt",
+    "ddd.png"
+  ],
+  "texture": {
+    "__uuid__": "122f162e-7bd3-4f61-8616-5a750546e074"
+  },
+  "fontSize": 18
+}
