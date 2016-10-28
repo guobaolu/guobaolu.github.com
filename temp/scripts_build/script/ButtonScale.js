@@ -12,7 +12,6 @@ cc.Class({
 
     // use this for initialization
     onLoad: function onLoad() {
-        console.log("几次");
         var self = this;
         self.initScale = this.node.scale;
         self.button = self.getComponent(cc.Button);

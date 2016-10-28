@@ -1,74 +1,74 @@
 {
-  "version": "1.1.1",
+  "version": "1.2.1-rc.1",
   "windows": {
     "main": {
-      "x": -8,
-      "y": -8,
-      "width": 1382,
-      "height": 754,
+      "x": 179,
+      "y": 220,
+      "width": 1496,
+      "height": 724,
       "layout": {
         "docks": [
           {
             "docks": [
               {
                 "active": 0,
-                "height": 312,
+                "height": 297,
                 "panels": [
                   "hierarchy"
                 ],
                 "type": "panel",
-                "width": 216
+                "width": 276.90625
               },
               {
                 "active": 0,
-                "height": 312,
+                "height": 297,
                 "panels": [
                   "assets"
                 ],
                 "type": "panel",
-                "width": 216
+                "width": 276.90625
               }
             ],
-            "height": 627,
+            "height": 597,
             "row": false,
             "type": "dock",
-            "width": 216
+            "width": 276.90625
           },
           {
             "docks": [
               {
                 "active": 0,
-                "height": 424,
+                "height": 356.25,
                 "panels": [
                   "scene"
                 ],
                 "type": "panel",
-                "width": 744
+                "width": 726.390625
               },
               {
                 "active": 0,
-                "height": 200,
+                "height": 237.75,
                 "panels": [
                   "console",
                   "timeline"
                 ],
                 "type": "panel",
-                "width": 744
+                "width": 726.390625
               }
             ],
-            "height": 627,
+            "height": 597,
             "row": false,
             "type": "dock",
-            "width": 744
+            "width": 726.390625
           },
           {
             "active": 0,
-            "height": 627,
+            "height": 597,
             "panels": [
               "inspector"
             ],
             "type": "panel",
-            "width": 394
+            "width": 464.703125
           }
         ],
         "no-collapse": true,

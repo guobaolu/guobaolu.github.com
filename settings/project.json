@@ -7,5 +7,6 @@
   "group-list": [
     "default"
   ],
-  "start-scene": "245ec99f-bf08-4403-8768-78061d46bc71"
+  "start-scene": "245ec99f-bf08-4403-8768-78061d46bc71",
+  "excluded-modules": []
 }

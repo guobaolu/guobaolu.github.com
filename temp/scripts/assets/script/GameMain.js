@@ -22,6 +22,7 @@ cc.Class({
             "default": null,
             url: cc.AudioClip
         },
+
         //两个那啥
         down: {
             "default": null,

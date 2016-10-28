@@ -6,7 +6,8 @@
     "_rawFiles": null,
     "scene": {
       "__id__": 1
-    }
+    },
+    "asyncLoadAssets": false
   },
   {
     "__type__": "cc.Scene",
@@ -42,7 +43,8 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "da7ecbab-87af-4065-ad35-83fe39d12d4a"
+    "_id": "da7ecbab-87af-4065-ad35-83fe39d12d4a",
+    "autoReleaseAssets": false
   },
   {
     "__type__": "cc.Node",

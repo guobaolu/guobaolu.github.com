@@ -9,5 +9,9 @@
   "packageName": "org.cocos2d.Game_K",
   "startScene": "245ec99f-bf08-4403-8768-78061d46bc71",
   "title": "Game_K",
-  "webOrientation": "auto"
+  "webOrientation": "auto",
+  "includeSdk": [
+    "anysdk"
+  ],
+  "includeAnysdk": false
 }
